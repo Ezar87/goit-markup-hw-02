@@ -36,9 +36,26 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.nav-item link{
+.nav-item link {
   text-decoration:none
 }
-.nav-item link :hover{
-  color: #404bbf
+.nav-item:hover,
+.nav-item:focus{
+  color: #404bbf;
 }
+.address {
+  font-style: normal;
+}
+.adress-list{ 
+  list-style: none}
+  .adress-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--pramery-text-color)
+   }
+   .adress-item:hover,
+   .adress-item:focus {
+    color:#404bbf;
+  } 
+  /* maine */
