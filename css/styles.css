@@ -26,7 +26,7 @@ body {
   color: var(--secondary-text-color);
 }
 /* maine navigation */
-.nav-list {
+.nav list {
   list-style: none 
 }
 .nav-item {
@@ -46,7 +46,7 @@ body {
 .address {
   font-style: normal;
 }
-.adress-list{ 
+.adress list{ 
   list-style: none}
   .adress-item {
     font-size: 16px;
@@ -65,7 +65,7 @@ body {
   }
   .hero-title {
     font-size: 56px;
-    ine-height: 1.07;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color:#ffffff;
@@ -75,6 +75,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
@@ -83,7 +84,7 @@ body {
   .button-title:focus {
     background-color: #404BBF;
   }
-  .work-list{
+  .work list{
     list-style: none;
   }
   .work-item {
@@ -114,14 +115,14 @@ body {
   background-color: #F4F4FD
 }
 .team{
-  ont-size: 36px;
+  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-text-color);
 }
-.team-list{
+.team list{
   list-style: none;
 }
 .team-cards {
@@ -147,7 +148,7 @@ body {
 .footer {
   background-color: var(--secondary-text-color);
 }
-.logo-part2 {
+.logo-p {
   color: #f4f4fd;
 }
 .footer-text {
