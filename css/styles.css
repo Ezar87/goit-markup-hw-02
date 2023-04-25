@@ -46,7 +46,7 @@ body {
 .address {
   font-style: normal;
 }
-.adress list{ 
+.adress-list{ 
   list-style: none}
   .adress-item {
     font-size: 16px;
@@ -83,7 +83,7 @@ body {
   .button-title:focus {
     background-color: #404BBF;
   }
-  .work list{
+  .work-list{
     list-style: none;
   }
   .work-item {
@@ -99,3 +99,57 @@ body {
     letter-spacing: 0.02em;
     color: var(--pramery-text-color)
   }
+  .work-expl {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-text-color);
+  }
+.img-list {
+  list-style: none
+}
+.team-section{
+  background-color: #F4F4FD
+}
+.team{
+  ont-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-text-color);
+}
+.team-list{
+  list-style: none;
+}
+.team-cards {
+  background-color: #ffffff;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.job-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--pramery-text-color);
+}
+
+/* footer */
+
+
+.footer {
+  background-color: var(--secondary-text-color);
+}
+.logo-part2 {
+  color: #f4f4fd;
+}
+.footer-text {
+  color:#f4f4fd;
+}
