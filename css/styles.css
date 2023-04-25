@@ -26,7 +26,7 @@ body {
   color: var(--secondary-text-color);
 }
 /* maine navigation */
-.list {
+.nav-list {
   list-style: none 
 }
 .navigation-item {
@@ -35,10 +35,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-}
-.navigation-link link {
-  text-decoration:none;
-}
-.navigation-link link:hover
-{ color: #404bbf;
 }
