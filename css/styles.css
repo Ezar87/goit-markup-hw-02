@@ -174,7 +174,16 @@ body {
   background-color: #F4F4FD;
   cursor: pointer;
   }
+  
   .buttons:hover,
   .buttons:focus {
-    background-color: #404BBF;
+    background-color:#404BBF;
+    color:#ffffff
+  }
+
+  .work-img list {
+    list-style: none;
+  }
+  .block link {
+    text-decoration: none;
   }
