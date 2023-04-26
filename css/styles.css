@@ -26,7 +26,7 @@ body {
   color: var(--secondary-text-color);
 }
 /* maine navigation */
-.nav list {
+.list {
   list-style: none;
 }
 .nav-item {
@@ -46,9 +46,7 @@ body {
 .address {
   font-style: normal;
 }
-.adress list {
-  list-style: none;
-}
+
 .adress-item {
   font-size: 16px;
   line-height: 1.5;
@@ -85,9 +83,7 @@ body {
 .button-title:focus {
   background-color: #404bbf;
 }
-.work list {
-  list-style: none;
-}
+
 .work-item {
   font-weight: 500;
   font-size: 20px;
@@ -109,9 +105,7 @@ body {
   text-transform: capitalize;
   color: var(--secondary-text-color);
 }
-.img-list {
-  list-style: none;
-}
+
 .team-section {
   background-color: #f4f4fd;
 }
@@ -123,9 +117,7 @@ body {
   text-transform: capitalize;
   color: var(--secondary-text-color);
 }
-.team list {
-  list-style: none;
-}
+
 .team-cards {
   background-color: #ffffff;
 }
@@ -159,10 +151,6 @@ body {
 
 /* buttons */
 
-.button list {
-  list-style: none;
-}
-
 .buttons {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -180,9 +168,6 @@ body {
   color: #ffffff;
 }
 
-.work-img list {
-  list-style: none;
-}
 .block link {
   text-decoration: none;
 }
